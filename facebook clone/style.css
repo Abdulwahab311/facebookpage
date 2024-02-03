@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 9px 4px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F2F5;
+    background-size: cover;
+}
+
+.container{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    height: 400px;
+   padding: 10px 50px;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.form-1{
+    padding: 150px;
+    text-align: center;
+    float: right;
+}
+.input-form{
+    width: 260px; 
+  border: none;
+}
+.input-form input{
+    width: 350px;
+    padding: 20px 8px;
+    font-size: 17px;
+}
+.forget{
+    text-decoration: none;
+    color: #1877F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.forget a{
+    text-decoration: none;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.btn-1{
+    font-size: 20px;
+    line-height: 48px;
+    padding: 5px 1px;
+    width: 332px;
+}
+.btn-1 button{
+    width: 350px;
+    background-color: #1877F2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.7s ease-in-out;
+}
+.btn-2{
+    font-size: 20px;
+    line-height: 60px;
+    padding:50px;
+    width: 332px;
+}
+.btn-2 button{
+    width: 200px;
+    background-color: #42B728;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.7s ease-in-out;
+}
+.logo img{
+    width: 350px;
+    margin: 20px;
+}
+.logo h1{
+    font-size: 25px;
+    transition: 0.7s ease-in-out;
+}
+.logo{
+    height: 10px;
+    margin: -28px;
+}
+.h{
+    margin-top: 200px;
+    padding: 30px
+}
+.logo h1 strong{
+    color: #1877F2;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 31px;
+    transition: 0.7s ease-in-out;
+}
+.btn-2 button:hover{
+   background-color: darkgreen;
+}
+.btn-1 button:hover{
+    background-color: darkblue;
+}
+.logo h1 strong:hover{
+    color: darkblue;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.logo h1:hover{
+    font-size: 28px;
+    color: red;
+}
+.search-bar{
+    text-align: -webkit-right;
+    margin-top: 40px;
+    padding: 12px;
+}
+.search-bar input{
+    border-radius: 18px;
+    width: 220px;
+    padding: 12px;
+}
+.search-bar i{
+    width: 40px;
+    font-size: 20px;
+    color: darkviolet;
+    transition: 0.7s ease-in-out;
+}
+.search-bar i:hover{
+    color: darkblue;
+    font-size: 30px;
+}
